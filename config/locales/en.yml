@@ -918,7 +918,7 @@ en:
     '406': This page is not available in the requested format.
     '410': The page you were looking for doesn't exist here anymore.
     '422':
-      content: Click to continue to <a href="feed.%{host}">%{app}</a>
+      content: Type feed.%{host} in your browsers address bar to continue
       title:  Welcome to %{app}!
     '429': Too many requests
     '500':
