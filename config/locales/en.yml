@@ -1,8 +1,8 @@
 ---
 en:
   about:
-    about_hashtag_html: These are posts tagged with <strong>#%{hashtag}</strong>.
-    about_mastodon_html: 'With FamFeed you will be able to share photos and posts with the whole extended family! This server runs a private instance of Mastodon an open source and public domain social network.'
+    about_hashtag_html: These are public posts tagged with <strong>#%{hashtag}</strong>. You can interact with them if you have an account anywhere in the fediverse.
+    about_mastodon_html: 'The social network of the future: No ads, no corporate surveillance, ethical design, and decentralization! Own your data with Mastodon!'
     about_this: About
     active_count_after: active
     active_footnote: Monthly Active Users (MAU)
@@ -10,15 +10,15 @@ en:
     api: API
     apps: Mobile apps
     apps_platforms: Use Mastodon from iOS, Android and other platforms
-    browse_directory: Browse a profile directory
-    browse_local_posts: Browse a live stream of posts from this server
-    browse_public_posts: Disabled
+    browse_directory: Browse a profile directory and filter by interests
+    browse_local_posts: Browse a live stream of public posts from this server
+    browse_public_posts: Browse a live stream of public posts on Mastodon
     contact: Contact
     contact_missing: Not set
     contact_unavailable: N/A
     discover_users: Discover users
     documentation: Documentation
-    federation_hint_html: Sign Up Here. To apply for an %{instance} account please fill out the short form below. In order to make it easy to recognise eachother all members must use their real full name on their account and their first name as their user name. Nicknames and short names are allowed as usernames if the nickname is widely known. Please do not post anything you would not want grandma to see.
+    federation_hint_html: With an account on %{instance} you'll be able to follow people on any Mastodon server and beyond.
     get_apps: Try a mobile app
     hosted_on: Mastodon hosted on %{domain}
     instance_actor_flash: |
@@ -35,7 +35,7 @@ en:
       one: post
       other: posts
     status_count_before: Who published
-    tagline: Keep up and share with the Family.
+    tagline: Follow friends and discover new ones
     terms: Terms of service
     unavailable_content: Moderated servers
     unavailable_content_description:
@@ -47,12 +47,12 @@ en:
       silenced_title: Limited servers
       suspended: 'No data from these servers will be processed, stored or exchanged, making any interaction or communication with users from these servers impossible:'
       suspended_title: Suspended servers
-    unavailable_content_html: Disabled
+    unavailable_content_html: Mastodon generally allows you to view content from and interact with users from any other server in the fediverse. These are the exceptions that have been made on this particular server.
     user_count_after:
       one: user
       other: users
     user_count_before: Home to
-    what_is_mastodon: What is %{app}?
+    what_is_mastodon: What is Mastodon?
   accounts:
     choices_html: "%{name}'s choices:"
     endorsements_hint: You can endorse people you follow from the web interface, and they will show up here.
@@ -814,7 +814,7 @@ en:
     delete_account_html: If you wish to delete your account, you can <a href="%{path}">proceed here</a>. You will be asked for confirmation.
     description:
       prefix_invited_by_user: "@%{name} invites you to join this server of Mastodon!"
-      prefix_sign_up: Sign up on today!
+      prefix_sign_up: Sign up on Mastodon today!
       suffix: With an account, you will be able to follow people, post updates and exchange messages with users from any Mastodon server and more!
     didnt_get_confirmation: Didn't receive confirmation instructions?
     dont_have_your_security_key: Don't have your security key?
@@ -918,14 +918,14 @@ en:
     '406': This page is not available in the requested format.
     '410': The page you were looking for doesn't exist here anymore.
     '422':
-      content: Type feed.%{host} in your browsers address bar to continue
-      title: Welcome to %{app}!
+      content: Security verification failed. Are you blocking cookies?
+      title: Security verification failed
     '429': Too many requests
     '500':
       content: We're sorry, but something went wrong on our end.
       title: This page is not correct
     '503': The page could not be served due to a temporary server failure.
-    noscript_html: To use the "%{app}" web application, please enable JavaScript. Alternatively, try one of the <a href="%{apps_path}">native apps</a> for Mastodon for your platform.
+    noscript_html: To use the Mastodon web application, please enable JavaScript. Alternatively, try one of the <a href="%{apps_path}">native apps</a> for Mastodon for your platform.
   existing_username_validator:
     not_found: could not find a local user with that username
     not_found_multiple: could not find %{usernames}
