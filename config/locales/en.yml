@@ -919,7 +919,7 @@ en:
     '410': The page you were looking for doesn't exist here anymore.
     '422':
       content: Type feed.%{host} in your browsers address bar to continue
-      title:  Welcome to %{app}!
+      title: Welcome to %{app}!
     '429': Too many requests
     '500':
       content: We're sorry, but something went wrong on our end.
