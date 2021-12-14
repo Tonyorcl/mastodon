@@ -918,8 +918,8 @@ en:
     '406': This page is not available in the requested format.
     '410': The page you were looking for doesn't exist here anymore.
     '422':
-      content: Security verification failed. Are you blocking cookies?
-      title: Security verification failed
+      content: Welcome! Your Signed in! Type the web address in the address bar again to continue.
+      title: Welcome!
     '429': Too many requests
     '500':
       content: We're sorry, but something went wrong on our end.
